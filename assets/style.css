@@ -1,0 +1,270 @@
+
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0;
+    align-items: center;
+    background-color: mediumturquoise;
+}
+
+body{
+   margin: 0%;
+}
+main{
+    margin: 0.4rem;
+}
+
+header img{
+    width: 70px;
+    height: 70px;
+    margin-left: 9px;
+    border-radius: 50px;
+}
+
+article{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+h1{
+    text-align: center;
+    color: blue;
+}
+h5{
+  text-align: center; 
+  color: orangered; 
+  font-size: 29px;
+  font-style: italic;
+  margin-top: 254px;
+}
+h4{ 
+    text-align: center;
+    color: rgb(242, 9, 9);
+    font-size: 22px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.bordhead{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1rem;
+}
+.deadbar{
+    display: flex;
+    text-decoration: none;
+    margin-right: 10px;
+    color: black;
+}
+.deadbars{
+    text-decoration: none;
+    margin-left: 10px;
+    color: black;
+}
+.deadbar:hover{
+    border-top: 2px solid blue;
+    color: blue;
+}
+.deadbars:hover{
+    border-top: 2px solid blue;
+    color: blue;
+}
+.grid{
+    display: flex;
+    width: 100%;
+    height: 56px;
+}
+.grid img{
+    width: 100%;
+    height: auto;
+    border: 0px;
+    vertical-align: middle;
+}
+
+.gridImg{
+    width: 180px;
+    height: 123px;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+}
+footer {
+	background-color: #28363D;
+	color: white;
+	display: flex;
+	padding-block: 3em;
+	justify-content: space-evenly;
+	font-size: 12px;
+	align-items: center;
+    margin-top: 3rem;
+}
+footer div {
+
+	position: relative;
+}
+.footer-logo {
+	background-color: white;
+	max-width: 308px;
+	padding: 10px;
+}
+.footer-contact {
+	margin-bottom: 1em;
+	font-weight: 700;
+	font-size: 16px;
+
+}
+
+/* les visites */
+.restaurants {
+    background-color: #fff;
+}
+
+.cards {
+    display: grid;
+    gap: 50px 98px;
+    padding: 25px 0 0 0;
+}
+
+.card {
+    background-color: #fff;
+    -webkit-box-shadow: 0px 4px 8px 5px rgba(0,0,0,.07);
+    box-shadow: 0px 4px 8px 5px rgba(0,0,0,.07);
+    text-decoration: none;
+    color: #000;
+    position: relative;
+}
+
+.cardImage img{  
+    width: 100%;
+    height: 173px;
+    object-fit: cover;
+}
+
+.card__footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 20px 40px 20px 15px;
+
+    
+}
+
+@media screen and (min-width : 860px){
+ .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 50px 98px;
+    padding: 25px 0 0 0;
+ }
+ .cardImage img {
+    height: 258px;
+ }
+}
+
+
+.card__title {
+    font-size: 18px;
+    margin: 0 0 5px 0;
+}
+.card__subtitle {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+/* equipe */
+
+.taill img{
+    display: flex;
+    width: 40px;
+    height: 33px;
+}
+.bordur img{
+    width: 900px;
+    height: 82px;
+    object-fit: cover;
+    border-radius: 0%;
+    align-items: center;
+    margin: auto;
+}
+
+.directionRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.directionRow img{
+    display: flex;
+    width: 170px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+h3 {
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 27px;
+    color: black;
+    margin-bottom: 0;
+}
+h2{
+    text-align: center;
+}
+p {
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    color: var(--drak-grey-color);
+}
+.whiteContentSection h2,
+.whiteContentSection h3,
+.whiteContentSection p {
+	color:  white;
+}
+
+.sectionLinearGradientBackground {
+    background-color: rgb(186, 126, 58);
+    margin: 0%;
+}
+
+/* Activites */
+
+/* autre css */
+.slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+  
+.slide {
+    display: none;
+    width: 100%;
+    height: 595px; /* ou toute autre hauteur souhaitée */
+    line-height: 300px; /* centrer le texte verticalement */
+    font-size: 24px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.slide img {
+   width: 100%;
+   height: 100%;    
+}
+  
+.slide.active {
+    display: block;
+}
