@@ -216,11 +216,14 @@ h3 {
     font-weight: 800;
     font-size: 25px;
     line-height: 27px;
-    color: black;
+    color: rgba(42, 144, 207, 0.865);
     margin-bottom: 0;
 }
 h2{
     text-align: center;
+    color: #370dd0;
+    font-size: 29px;
+    font-style: italic;
 }
 p {
     font-family: 'Archivo';
