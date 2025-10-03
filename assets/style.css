@@ -179,6 +179,13 @@ a{
     flex-direction: row;
     justify-content: center;
 }
+@media screen and (max-width : 665px){
+ .directionRow {
+    display: grid;
+    gap: 50px 98px;
+    padding: 25px 0 0 0;
+ }
+}
 .directionRow img{
     display: flex;
     width: 170px;
@@ -367,7 +374,7 @@ input[type="submit"]{
         .picture{width:80%}
         .image-size{width:100%}
         .directionRow {
-                       display: flex;
+                       display: grid;
                        flex-direction: row;
                        justify-content: center;
                     }
