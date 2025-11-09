@@ -301,6 +301,15 @@ p {
 
 /* footer */
 
+.fa-solid{
+    -webkit-font-smoothing: antialiased;
+    display: var(--fa-display, inline-block);
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+}
+
 #contact{
     margin:auto;
     background-color:#D8D3A8;
