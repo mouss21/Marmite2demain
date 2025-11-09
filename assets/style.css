@@ -7,7 +7,10 @@ header{
     align-items: center;
     background-color: mediumturquoise;
 }
-
+.fa {
+    font-size: 22px;
+    vertical-align: middle;
+}
 body{
    margin: 0%;
 }
